@@ -1,0 +1,1300 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>WIKI | 2024</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+     
+        <link rel="shortcut icon" href="https://static.igem.wiki/common/icons/favicons/igem-2022.svg"/>
+        <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="lib/all.css"/>
+        <link href="lib/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+       <!--https://codepen.io/b1tn3r/pen/erLqbQ--> 
+       <style>
+        .acc-main {
+    padding: 40px 0px 80px;
+    color: #000;
+  }
+  .container {
+   /* max-width: 790px;*/
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .pockets-main h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #111;
+    margin: 0 0px 35px;
+  }
+  .intro-cont h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #111;
+    margin: 50px 0;
+  }
+  .kind h2{
+    text-align:center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #111;
+    margin: 50px 0 30px;
+  }
+  /*accordion*/
+  .accordion-main{
+    margin-bottom:36px;
+  }
+  .accordion-main:last-child .accordion_body{
+    padding-bottom: 0;
+  }
+  .accordion_head {
+    background-color: #c4d7b2;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border:1px solid 29705a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .accordion_body {
+    background: transparent;
+    font-size: 18px;
+    text-align: center;
+   
+  }
+  .accordion_body img{
+    width: 100%;
+    max-width: 450px;
+    
+  }
+  .accordion_body p {
+    margin: 0px;
+    color: #000000;
+  }
+  .accordion_body h3,
+  .div-bott h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: #1e352e;
+  }
+  .div-bott h3{
+  font-size: 35px;
+  }
+  .div-bott{
+  text-align:center;
+  }
+  .div-bott p{
+  font-size:24px;
+  }
+  .plusminus {
+    float: right;
+    font-size: 36px;
+    margin-top: -9px;
+  }
+  .coll-back{
+    background-color: #fff;
+    color: #111;
+    border:1px solid #111;
+  }
+  .hr-clc{
+    height: 2px;
+    background: #111;
+    margin-top: 22px;
+    width: 17px;
+    padding: 0;
+    border: 0;
+    margin-left: -20px;
+  }
+
+  /*media queries*/
+  @media (min-width:992px) and (max-width:1100px){
+    .pockets-main p {
+      font-size: 22px;
+      width: 684px;
+      margin:0 auto;
+      margin-bottom: 20px !important;
+    }
+    .accordion_body {
+      padding: 35px 40px 5px;
+    }
+    .accordion_body img {
+      max-width: 205px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .pockets-main {
+      padding: 30px 15px;
+    }
+    .pockets-main h1 {
+      font-size: 45px;
+      margin: 0 0px 20px;
+    }
+    .pockets-main p {
+      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      width: 600px;
+      margin: 0 auto;
+    }
+    .intro-cont h3,
+    .div-bott h3{
+      font-size: 30px;
+      margin: 35px 0;
+    }
+    .kind h2 {
+      font-size: 30px;
+      margin: 35px 0 30px;
+    }
+    .accordion_head {
+      font-size: 20px;
+      padding: 11px 18px;
+    }
+    .plusminus {
+      font-size: 27px;
+      margin-top: -5px;
+    }
+    .accordion-main {
+      margin-bottom: 24px;
+    }
+    .hr-clc {
+      margin-top: 16px;
+      width: 15px;
+      margin-left: -15px;
+    }
+    .accordion_body {
+      font-size: 18px;
+      padding: 30px 40px 5px;
+    }
+    .accordion_body img {
+      width: 100%;
+      max-width: 185px;
+      margin-bottom: 20px;
+    }
+    .accordion_body h3 {
+      font-size: 24px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767px){
+    .pockets-main {
+      padding: 35px 15px;
+    }
+    .pockets-main h1 {
+      font-size: 40px;
+      margin: 0 0px 30px;
+    }
+    .pockets-main p {
+      font-size: 18px !important;
+      margin-bottom: 20px !important;
+      width: 400px;
+      margin: 0 auto;
+    }
+    .intro-cont h3,
+    .div-bott h3{
+      font-size: 26px;
+      width: 400px;
+      margin: 30px auto;
+      line-height: 1.2 !important;
+    }
+    .div-bott h3{
+    width:unset;
+    }
+    .kind h2 {
+      font-size: 26px;
+      margin: 30px 0 30px;
+    }
+    .accordion_head {
+      font-size: 20px;
+      padding: 10px 15px;
+    }
+    .accordion-main {
+      margin-bottom: 25px;
+    }
+    .plusminus {
+      font-size: 30px;
+      margin-top: -5px;
+    }
+    .accordion_body {
+      padding: 30px 25px 5px;
+    }
+    .accordion_body img {
+      max-width: 170px;
+      margin-bottom: 20px;
+    }
+    .hr-clc {
+      margin-top: 17px;
+      width: 16px;
+    }
+    .accordion_body h3 {
+      font-size: 22px;
+      margin: 15px 0;
+    }
+  }
+  @media (max-width:575px){
+    .pockets-main{
+      padding:15px 0px;
+    }
+    .pockets-main h1 {
+      font-size: 30px;
+      margin: 0 0px 15px;
+    }
+    .pockets-main p {
+      font-size: 16px !important;
+      margin-bottom: 15px !important;
+    }
+    .intro-cont h3,
+    .kind h2,
+    .div-bott h3{
+      margin: 30px 0px;
+      line-height: normal !important;
+      font-size:24px;
+    }
+    .accordion_head {
+      font-size: 18px;
+      padding: 8px 12px
+    }
+    .plusminus {
+      font-size: 27px;
+      margin-top: -7px;
+    }
+    .accordion-main {
+      margin-bottom: 22px;
+    }
+    .accordion_body {
+      font-size: 18px;
+      padding: 20px 20px 5px;
+    }
+    .accordion_body img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    .accordion_body h3 {
+      font-size: 18px;
+      margin: 10px 0;
+      line-height: normal;
+    }
+    .hr-clc {
+      height: 2px;
+      margin-top: 16px;
+      width: 15px;
+      margin-left: -15px;
+    }
+  }
+
+  .video {
+    overflow: hidden;
+    position: relative;
+    /* (videoHeight / videoWidth) * 100 => (720 / 1280) * 100 */
+    padding-bottom: 56.25%;
+    
+}
+.video__item {
+        z-index: -10;
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    #slider {
+  position: relative;
+  width: 1078px;
+    height:500px;
+  margin: 100px auto;
+  overflow: hidden;
+
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+#slider ul li img{
+  width: 1078px;
+    height: 500px;
+
+}
+
+#slider #prev, #slider #next {
+  width: 40px;
+  line-height: 40px;
+
+  font-size: 1.5rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: black;
+	background: #f9f7fb;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+	color: white;
+}
+#slider #prev {
+
+}
+#slider #next {
+  right: 0px;
+}
+.img_para{
+  margin: 34px 80px 225px 120px;
+  display:flex;
+  float: right;
+  height:400px;
+ width: 60%;
+}
+</style>
+       </style>
+        </head>
+
+        <body>
+
+            <!-- Spinner Start -->
+            <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+                <div class="spinner-grow text-primary" role="status"></div>
+            </div>
+            <!-- Spinner End -->
+
+              <!-- Navbar start -->
+        <div class="container-fluid nav-bar" id="navbar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/noftbg.svg" width="80px" height="80px" alt="">
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="home.html" class="nav-item nav-link active">HOME</a>
+                           
+                                                       
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PROJECTS</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="description.html" class="dropdown-item">Description</a>
+                                    <a href="design.html" class="dropdown-item">Design</a>
+                                    <a href="saftey.html" class="dropdown-item">Safety</a>
+                                                                    
+                                </div>
+                            </div>
+                           
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">WET LABS</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="experiments.html" class="dropdown-item">Experiments</a>
+                                    <a href="notebook.html" class="dropdown-item">Notebook</a>
+                                    <a href="engineering.html" class="dropdown-item">Engineering</a>
+                                    <a href="results.html" class="dropdown-item">Results</a>    
+                                    <a href="parts.html" class="dropdown-item">Parts</a>                             
+                                </div>
+                            </div>
+
+                            <a href="modeling.html" class="nav-item nav-link">MODELING</a>
+
+                            <a href="contribution.html" class="nav-item nav-link">CONTRIBUTION</a>
+
+                            <div class="nav-item dropdown">
+                              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HUMAN PRACTICES</a>
+                              <div class="dropdown-menu bg-light">
+                                  <a href="humanpactice.html" class="dropdown-item">iHP</a>
+                                  <a href="education.html" class="dropdown-item">Education</a>
+                                  <a href="inclusivity.html" class="dropdown-item">Inclusivity</a>
+                                                                                                                                       
+                              </div>
+                          </div>
+
+                          <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">IMPLEMENTATION</a>
+                            <div class="dropdown-menu bg-light">
+                                <a href="pi.html" class="dropdown-item">PI</a>
+                                <a href="enterprnaurship.html" class="dropdown-item">Enterprnaurship</a>
+                                <a href="sustainabilty.html" class="dropdown-item">Sustainabilty</a>
+                    
+                            </div>
+                        </div>
+
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">TEAM</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="members.html" class="dropdown-item">Members</a>
+                                    <a href="attributions.html" class="dropdown-item">Attributions</a>    
+                                    <a href="collaboration.html" class="dropdown-item">Collaboration</a>
+                                    <a href="sponsors.html" class="dropdown-item">Sponsors</a>                          
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                       </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <section><br><br>
+
+          <center><h1 style="color:white;">iHP</h1></center>
+          <div class='air air1'></div>
+          <div class='air air2'></div>
+          <div class='air air3'></div>
+        </section>
+
+<article class="bg-hero py-5 mb-4 container-lg">
+
+  <!-- <div class="row mt-12">
+    <div class="col"> 
+      <!-- overview -----
+      <div class=" rounded-4 textcolor-1 p-3" >  
+        <center><h1 class="heading mx-5 mt-3">OVERVIEW</h1></center>
+        <hr class="mx-5">
+        <p class="text-start mx-5">
+         
+        </p>
+      </div>
+    </div>
+  </div> -->
+
+<div class="space-50vh"></div>
+  <div class="row mt-12">
+    <div class="col"> 
+      <!--our approach-->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+        <center><h1 class="heading mx-5 mt-3">OUR APPROACH</h1></center>
+        <hr class="mx-5">
+        <p class="text-start mx-5">
+          "Human Practice is the study of how your work affects the world, and how the world affects your work." - Peter Carr, Director of Judging, 2020 <br>
+          <br>Our team has always believed that iGEM projects are meant to benefit humanity and our planet. Each project is driven by real-world issues and people, including ours. We aim to tackle a local problem with a sustainable solution, leveraging synthetic biology’s potential. Ultimately, we hope to inspire others to contribute to the greater good through science, research, and collaboration. (same vibes but change fully) <br>
+          <br>Our project aims to produce sandalwood oil sustainably from PET plastic, but the journey to PETAL was marked by extensive exploration of other ideas. Initially, we split the team into two groups, each focused on using synthetic biology to address global challenges. One group, inspired by the Beeyeast 2023 Overgrad project, focused on using shRNA silencing to treat chytrid infections in amphibians in the Western Ghats. The other group looked into upcycling plastic waste through synthetic biology. <br>
+          <br>Both groups worked closely with former iGEM participants and faculty to refine their ideas, creating detailed presentations and plans. During the Foundation Symposium’s biology week, we had the opportunity to present the chytrid project to Dr. Kunte from NCBS, an expert on Western Ghats butterflies, and Prof. Ullasa from IISER TVM. They explained that chytrid infections have declined by around 70% over the last four years, making the project less impactful than we had hoped. Moreover, the delivery of the therapeutic was a question, too. <br>
+          <br>This feedback led our entire team to rally around the idea of valorizing PET plastic. However, the question remained: what should we upcycle it into? During our brainstorming, we found a groundbreaking paper by Joana Sadler, who had successfully upcycled PET plastic into vanillin. Her work inspired us to consider a similar approach, transforming plastic waste into high-value molecules. This approach reduces plastic waste and offers sustainable routes to produce chemicals that are otherwise derived from petrochemical sources. Hence, we aligned ourselves with her thinking but sought a plant-based metabolite in high demand yet low supply. <br>
+          <br>Right around the time we were refining our idea, a news article in December 2023 caught our attention. Karnataka Soaps and Detergents Limited (KSDL) announced that it would be importing 90% of its sandalwood oil requirements from Australia for its iconic Mysore Sandal soap. This hit close to home because Mysore Sandal soap is a household essential in India, and it felt ironic that we were importing the very oil that gives it its identity. <br>
+          <br>Focusing on this issue made sense, especially since Indian sandalwood, prized for its high content of alpha and beta santalol, has become increasingly rare. This scarcity led us to reflect on why we are losing India’s fragrant ambassador and how we might address this by producing sandalwood oil sustainably with synthetic biology. <br>
+          <br>In designing our Integrated Human Practices, we focused on ensuring that our project is both responsible and good for the world. We’ve worked hard to broaden the scope of our project while diving deep into every activity we’ve taken on. Throughout this process, we've focused strongly on people, considering ethical and moral considerations every step of the way. <br>
+          <br>Our goal has been to explore and show how our project connects to the larger world around us. By creating feedback loops between our synthetic biology work and the world it impacts, we've embraced the Reflective, Responsible, and Responsive approach championed by iGEM.
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-50vh"></div>
+<div class="row">
+    <center><h1 class="heading mx-5 mt-3">IDENTIFYING OUR STACKHOLDERS</h1></center>
+  <div class="col-md-4">
+    <div class="card1">
+      <div class="card-face card-front">
+          <img src="images/sponsorship/sponsorship/cellgenix.svg" alt="" style="width: 63%;">
+      </div>
+      <div class="card-face card-back">
+         
+      </div>
+  </div>
+  </div>
+  <div class="col-md-4" >
+    <div class="card1">
+      <div class="card-face card-front">
+          <img src="images/sponsorship/sponsorship/cellgenix.svg" alt="" style="width: 63%;">
+      </div>
+      <div class="card-face card-back">
+         
+      </div>
+  </div>
+  </div>
+ 
+  <div class="col-md-4" >
+    <div class="card1">
+      <div class="card-face card-front">
+          <img src="images/sponsorship/sponsorship/cellgenix.svg" alt="" style="width: 63%;">
+      </div>
+      <div class="card-face card-back">
+         
+      </div>
+  </div>
+  </div>
+ 
+
+</div>
+
+<div class="space-50vh"></div>
+<div class="row">
+    <div class="col-md-4">
+      <div class="card1">
+        <div class="card-face card-front">
+            <img src="images/sponsorship/sponsorship/cellgenix.svg" alt="" style="width: 63%;">
+        </div>
+        <div class="card-face card-back">
+           
+        </div>
+    </div>
+    </div>
+    <div class="col-md-4" >
+      <div class="card1">
+        <div class="card-face card-front">
+            <img src="images/sponsorship/sponsorship/cellgenix.svg" alt="" style="width: 63%;">
+        </div>
+        <div class="card-face card-back">
+           
+        </div>
+    </div>
+    </div>
+   
+    <div class="col-md-4" >
+      <div class="card1">
+        <div class="card-face card-front">
+            <img src="images/sponsorship/sponsorship/cellgenix.svg" alt="" style="width: 63%;">
+        </div>
+        <div class="card-face card-back">
+           
+        </div>
+    </div>
+    </div>
+   
+  
+  </div>
+
+  <div class="space-50vh"></div>
+
+
+
+
+  <div class="row">
+    
+    <div class=" col-sm-12 col-lg-12">
+      <!-- over view -->
+     
+     
+      
+      <div class="row mt-4" id="plant-terpenoids-and-applications">
+        <div class="col"> 
+          <!-- overview -->
+          <div class=" rounded-4 textcolor-1 p-3" >  
+           <center><h1 class="heading mx-5 mt-3">Understanding Problem</h1></center> 
+            <hr class="mx-5">
+            <div class="accordion_container">
+              <!-- beauty industry  -->
+              <div class="accordion-main">
+                  <div class="accordion_head">Beauty industry<span class="plusminus">+</span></div>
+                  <div class="accordion_body" id="a1" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                 <h1 class="text-start mx-5">Name (insert)</h1>
+                      <p class="text-start mx-5">
+                        KS&DL Karnataka Sandalwood Soaps and Detergents Limited, Bangalore 
+                        A government enterprise producing sandalwood products, home to the iconic Mysore Sandalwood Soap of India. <br>
+                        <br>During our visit to KS&DL, we aimed to learn more about the production and demand for sandalwood oil products, particularly the Mysore Sandal Soap. We inquired about a recent article that inspired us, and they confirmed the unfortunate situation: this year has been challenging, and we had to import from Australia. There's uncertainty about the availability of sandalwood oil in the coming years. This shortage poses a significant issue not only in Indian demand but also in exports. <br>
+                        <br>Despite having well-established, fully electric soap-making machinery and a high demand for their products, the production requires a substantial amount of sandalwood oil. KS&DL also produces products with other essential oils, which can be more easily adjusted to meet fluctuating demands. However, this flexibility doesn't extend to sandalwood oil. <br>
+                        <br>“We see a future for sandalwood soap, but it just isn't possible without the authentic Indian sandalwood oil.” <br>
+                        <br>They were quite pleased after hearing about our project but raised concerns about its authenticity. They asked how our product's composition would differ from Indian sandalwood. We explained that it would be exactly the same as Santalum album, with an identical composition. They agreed that an additional source of sandalwood oil could be very beneficial. 
+                      </p>
+                    </div></div>
+                </div>
+                <!-- academia  -->
+                <div class="accordion-main">
+                  <div class="accordion_head">Academia<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                      <p class="text-start mx-5">
+                        
+                      </p>
+                    </div></div>
+                </div>
+
+                <!-- gov and policymaker  -->
+                <div class="accordion-main">
+                  <div class="accordion_head"> Govt. and policymakers<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+               <h1 class="text-start mx-5">Dr. Nagendra</h1>
+                 <p class="text-start mx-5">
+                  <br> Human Resource Head, Sandalwood Oil Division, KSDL, Government of Karnataka Enterprise. The largest producer of sandalwood oil in the country. <br>
+                  <br> To gain insights into the extraction process of sandalwood oil from the sandalwood tree, our human practices team traveled to Mysore to visit this government-run industry. Dr. Nagendra provided us with an in-depth look into the traditional methods used in producing sandalwood oil, the only facility in India dedicated to this craft. Established in 1916, KSDL boasts a rich history spanning nearly 108 years. The factory's aromatic presence can be detected kilometers away, but it masks some significant challenges. <br>
+                  <br>Sandalwood oil production at KSDL has significantly reduced over the years, and the factory now operates only a few months a year, producing just enough to meet the needs of KSDL in Bangalore. Export is only possible if there is any excess. During our tour, Dr. Nagendra demonstrated the process, starting with the chipping of sandalwood logs into rough pieces and separating the heartwood from the sapwood. This is followed by feeding the material into ten 20-foot, coal-run distillers. Through this extensive distillation, pure sandalwood oil is produced. <br>
+                  Sandalwood essential oil is extracted through traditional steam distillation methods, where the branches and leaves of the sandalwood tree are placed in an alembic. Steam passes through the material, vaporizing the aromatic compounds, and the resulting vapor is then condensed into an oil-water mixture. This mixture is subsequently separated to isolate the sandalwood essential oil <br>
+                  <br>Over the years, the supply of sandalwood has drastically decreased. The factory faces a significant shortage of feedstock due to the limited sandalwood supply chain. Since the extraction process is resource-intensive and relies entirely on the precious wood, the high cost of procuring feedstock adds to the challenge. With limited sandalwood supply from plantation export units in India, the factory cannot operate year-round. As the largest producer, KSDL benefits from government policies that direct bulk purchases from auctioning at Marayoor. Despite this, the high cost of sandalwood means Mysore takes the majority share from these regions. <br>
+                  <br> Dr. Nagendra validated our project's approach, acknowledging that our method is sustainable and does not rely on raw materials or feedstock. It also eliminates the need for hours of the distillation process. "It's time to change the technology- this is the new generation," he remarked. He did question our energy source, and we explained that our bacteria thrive on plastic. He found this approach both environmentally friendly and cost-effective.
+                      </p>
+                  <br>
+                <h1 class="text-start mx-5">Mr. Ajit</h1>
+                 <p class="text-start mx-5">
+                  Municipality Plastic Collection Unit, Trivandrum. <br>  We visited a government municipality plastic collection unit in Trivandrum to understand how plastic waste management operates in metropolitan cities. At the Kazhakuttam unit, we spoke with Mr. Ajit, who oversees the operations there. <br>
+                <br>Trivandrum has around 50 such collection units. Plastics are collected manually from households by the Harita Karma Sena. Once brought to the units, the plastic waste is sorted into different categories and then sent to main processing units located in other cities in Kerala, like Alappuzha and Kozhikode. <br>       
+                <br>Mr. Ajit explained that all this plastic needs to be collected and transported to different cities for processing, which is not currently feasible. Sometimes, issues arise in the middle of the chain, disrupting the transportation and affecting the entire process. Establishing government processing units in every city will take a significant amount of time. He also pointed out that due to the lack of major plastic processing units within the city, people aren't encouraged to dispose of their waste properly. He emphasized the importance of starting waste management education from a young age, suggesting it be included in school curriculums. <br>
+                <br>“I wish people knew proper waste management so that there's less waste,” he expressed. <br>
+                <br>Inspired by this conversation, we decided to incorporate sustainable practices and waste management education sessions into our project.
+              </p>
+                    </div>
+                   </div>
+                </div>
+
+                <!-- forest dept and conseveravtion  -->
+                <div class="accordion-main">
+                  <div class="accordion_head">Forest Dept. and Conservationists<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                      <p class="text-start mx-5">
+                        
+                      </p>
+                    </div> </div>
+                </div>
+
+                 <!-- NGOs  -->
+                <div class="accordion-main">
+                  <div class="accordion_head">NGOs<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                      <h1 class="text-start mx-5">Abdul Vahid</h1>
+                      <img class="img_para" src="https://static.igem.wiki/teams/5181/hp/ss-scraps-vithura-1.jpeg" alt="image is loading">
+                      <p class="text-start mx-5">
+                        <br>SS Scrape Business, a Private Plastic Processing Unit near our campus in Vithura (Kerala Pollution Control Board approved) <br>
+                        <br>On our way to the waterfalls, we noticed a large plastic processing unit and decided to inquire about the private sector of plastic waste management. Abdul Vahid shared that their facility processes 8 tonnes of plastic daily, including 1 tonne of PET, collected from Vithura, Nedumangad, and Palode. This area spans approximately (insert area). Their processes include human-based segregation, machine chipping, and compression for compact packing and further transport. <br>
+                        <br>He explained that while PET can be recycled only once effectively, losing its properties in consequent rounds, their approach involves upcycling PET by sending it to a Gujarat-based company (insert name). This company converts the compressed PET into nylon threads and t-shirts. This provides a good amount of incentives for better plastic management in the case of the general public as opposed to the government municipality. <br>
+                        <br>“PET is unavoidable; 50% of it is made of crude petroleum, and recycling keeps it the same. It's still present in the environment AS PLASTIC.” <br>
+                      </p>
+                      <br><h1 class="text-start mx-5">Ambika Vasudeva </h1>
+                      <p class="text-start mx-5">
+                        <br>Private Sandalwood Cultivator in Hassan, Karnataka. <br>
+                        <br>During a wedding attended by our team, we had the opportunity to speak with Ambika Vasudev, a private sandalwood cultivator and our team lead’s relative. In hopes of gaining insights into private sandalwood cultivation. Ambika has experience of 6 years and her plantation covers 5 acres of land. <br>
+                        <br>Ambika highlighted the significant gap between the procurement prices offered by government agencies and the retail prices through which sandalwood is sold. This discrepancy serves as a disincentive for sandalwood farmers. Cultivating sandalwood is no small feat, requiring a considerable investment of time and resources. The trees take around 30 years to mature, and the risks associated with them are high. Moreover, the cultivation process is challenging due to the fear of smuggling and the lack of insurance schemes, so any case of robbery will fall straight on the owner. Sandalwood trees also require being planted with other species as they are hemiparasites. <br>
+                        <br>“Basically a long-time investment but with lots of costs and risks.”
+                      </p>
+                    </div>
+                  </div>
+                </div>  
+
+                <!-- general public  -->
+                 <div class="accordion-main">
+                  <div class="accordion_head">General Public<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+               
+                      <p class="text-start mx-5">
+                        
+                      </p>
+                    </div></div>
+                </div>
+            
+            </div>
+              
+             
+          </div>
+        </div>
+      </div>
+
+
+<div class="row mt-4">
+    <div class="col"> 
+      <!-- ideation of our solution -->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+       <center><h1 class="heading mx-5 mt-3">IDEATION OF OUR SOLUTION </h1></center> 
+        <hr class="mx-5">
+        <div class="accordion_container">
+            <div class="accordion-main">
+              <div class="accordion_head">
+                De-risking the startup
+                  <span class="plusminus">+</span></div>
+              <div class="accordion_body" id="a1" style="display: none;">
+                <div class=" rounded-4 textcolor-1 p-3" >  
+                  <h1 class="text-start mx-5">Dr. Oliver Brandenburg</h1>
+                  <p class="text-start mx-5">
+                    He is a researcher at the Swiss Federal Institute of Aquatic Science and Technology (EAWAG), specializing in plastic biodegradation, directed evolution, and green chemistry. His work has notably included engineering Pseudomonas putida strains to utilize terephthalic acid (TPA) and ethylene glycol (EG) as sole carbon sources.
+                  </p>
+                  <h3 class="text-start mx-5">Reasons to Approach:</h3>
+                    <p class="text-start mx-5">
+                    We reached out to Dr. Brandenburg due to his expertise in engineering microbial strains for specific metabolic pathways and his experience with Pseudomonas putida. Given the complexity of our project, which involves engineering a strain to do both take up PET monomers and produce santalol, his insights were crucial.
+                </p>
+              </p>
+              <h3 class="text-start mx-5">Suggestions:</h3>
+                <p class="text-start mx-5">
+                We reached out to Dr. Dr. Brandenburg reviewed our proposed timeline and concluded that engineering a new organism from scratch alongside developing the santalol pathway was too ambitious within the given timeframe. Instead, he recommended leveraging his existing engineered strains of Pseudomonas putida KT2440. He advised that we focus on remodeling the metabolic pathways already present in these strains to build up on our terpenoid production. Additionally, he suggested adjusting the growth conditions, M9 minimal media in this case, to grow the strains. He also emphasized the value of employing adaptive evolution techniques to enhance strain performance under specific conditions further.Brandenburg due to his expertise in engineering microbial strains for specific metabolic pathways and his experience with Pseudomonas putida. Given the complexity of our project, which involves engineering a strain to do both take up PET monomers and produce santalol, his insights were crucial.
+            </p>
+            <h3 class="text-start mx-5">Integrations: :</h3>
+            <p class="text-start mx-5">
+              Adjusting media and decided to integrate alr engg bac
+               <br>Dr. Jordi Perez 
+               <br>Marie Curie Fellow. Centre for Research in Agricultural Genomics (CRAG), Barcelona, Spain Isoprenoid biosynthesis, synthetic biology, metabolic engineering.
+              <br>An expert in isoprenoid synthesis we approached him for help of metabolic engineering of our pathway
+              <dd class="text-start mx-5"> -To know what will be better for us on takes on MVA and MEP pathway</dd> 
+             <dd class="text-start mx-5"> -Helped us to choose MEP pathway for production of DMAPP and IPP as its already native in pseudomonas pudita plus some (calculation about the moles- ac) </dd> 
+             <dd class="text-start mx-5"> - He has Exp showed MEP is better </dd>
+             <dd class="text-start mx-5"> - DXS/DXR overexpression-link to pcdfduet engineering cycle </dd>       
+             </p>
+            <br>
+
+            <h1 class="text-start mx-5">Prof. Jörg Bohlmann</h1>
+            <p class="text-start mx-5">
+              Prof. Bohlmann is a researcher at the Michael Smith Laboratories, University of British Columbia, Vancouver, Canada, specializing in terpenoid bioproducts and Cytochrome P450 enzymes.           
+             </p>
+            <h3 class="text-start mx-5">Reasons to Approach:</h3> 
+            <p class="text-start mx-5">
+              We consulted Prof. Bohlmann due to his expertise in terpenoids and Cytochrome P450 enzymes, which are crucial for our project involving the production of santalene and santalol. His insights were sought to overcome challenges in the expression of santalol in our chosen chassis, as his chassis was E coli and yeast.
+            </p>
+            <h3 class="text-start mx-5">Suggestions:</h3> 
+            <p class="text-start mx-5">
+              He suggested using the pCDF-duet vector system to facilitate the production of santalene, a precursor to santalol in Pseudomonas putida, too, just like E coli. Although on the other side, he expressed concerns about the difficulties of expressing Cytochrome P450, required for the production of santalol from santalene in Pseudomonas putida, noting that Cytochrome P450 is a membrane-bound enzyme and our chassis is a prokaryote that may struggle with the necessary post-translational modifications. He highlighted that this could make the process of expression of santalol more intensive and challenging.
+             </p> 
+             <h3 class="text-start mx-5">Integration:</h3> 
+             <p class="text-start mx-5">
+              Following his recommendations, we integrated the pCDF-duet vector system into our chassis. For the cytochrome P450, we began exploring other comparable systems naturally found in (eukaryotic?) organisms or, that resemble the engineered E. coli variants.
+            </p>
+
+            <br>
+            <h1 class="text-start mx-5">Prof. Víctor de Lorenzo</h1>
+            <p class="text-start mx-5">
+              Professor Lorenzo is a researcher at the Centro Nacional de Biotecnología-CSIC in Spain, specializing in synthetic biology, environmental biology, and metabolic engineering.
+            </p>
+            <h3 class="text-start mx-5">Reasons to Approach:</h3>
+            <p class="text-start mx-5">
+              We contacted Prof. Lorenzo for his expertise in synthetic biology and metabolic engineering in p putida, particularly for his insights into vector systems and choice of plasmid to design bicistronic(two genes under same promoter) (whta) and the optimization of gene expression for our chassis.
+            </p>
+            <h3 class="text-start mx-5">Suggestions:</h3>
+            <p class="text-start mx-5">
+              After an in-depth discussion and troubleshooting regarding the functionality of the pCDF-duet vector, Prof. de Lorenzo recommended developing our own constructs using the pSEVA vector system. The pSEVA system is designed with a modular architecture that allows for easy assembly and customization of genetic constructs, making it suitable for various applications in synthetic biology. He provided critical guidance on promoter selection, spacer sequence length, and ribosome binding sites (RBS), all of which are essential for optimizing gene expression. A key suggestion was to add an extended Shine-Dalgarno (SD) sequence next to the stop codon of the preceding gene to (for what). Prof. de Lorenzo validated our genetic insert designs, instilling confidence in the potential of our system and refining our approach, confirming the viability of our constructs.
+            </p>
+            <h3 class="text-start mx-5">Integrations: :</h3>
+            <p class="text-start mx-5">
+              <dd class="text-start mx-5">- he gave his psevas</dd> 
+             <dd class="text-start mx-5">- what promoters did we select </dd> 
+             <dd class="text-start mx-5">- length of space seq</dd>    
+             </p>
+            <br>
+            <h1 class="text-start mx-5">Dr. Vijay Jayaraman</h1>
+            <p class="text-start mx-5">
+              Dr. Vijay is a researcher at the Indian Institute of Science Education and Research (IISER) in Thiruvananthapuram, India, specializing in enzyme engineering, synthetic biology and systems biochemistry. He also serves as the primary PI for our team.
+            </p>
+            <h3 class="text-start mx-5">Reasons to Approach:</h3>
+            <p class="text-start mx-5">
+              We sought Dr. Vijay's expertise due to his extensive synthetic biology experience and role as our primary PI. His involvement was crucial throughout our iGEM project, providing guidance in wet lab as well as dry lab aspects and administrative tasks related to iGEM permissions.
+            </p>
+            <h3 class="text-start mx-5">Suggestions:</h3>
+            <p class="text-start mx-5">
+               Dr. Jayaraman assisted us from the very beginning of our project, contributing to the ideation phase to helping with plasmid design strategies. He offered critical advice on choosing suitable promoters, such as arabinose (arabad) and rhamnose (rhabad), for (why). He also validated our concept of a CPR-P450 fusion protein. Dr. Jayaraman’s PhD student, Aswathy, provided invaluable support in helping the wet lab team with Gibson assemblies and electroporations.
+              <br>Dealt with planning exp for growth curve
+              <br>Supp presentation 
+              <br>Dr. Jayaraman’s proactive involvement and expert input were instrumental in refining our experimental strategies and ensuring the success of our project.
+            </p>
+              <h3 class="text-start mx-5">Integrations: :</h3>
+              <p class="text-start mx-5">
+                all over our project we integrated the suggestion given by him in wet lab and dry lab, (add what changes was made after)
+              </p>  
+              <br>
+              <h1 class="text-start mx-5">Prof. Shekhar Mande</h1>
+              <p class="text-start mx-5">Professor Mande currently holds a Distinguished Professorship at Savitribai Phule Pune University and is the former Director General of the Council of Scientific and Industrial Research. His expertise lies in the realm of structural and computational biology.     
+              </p>
+              <h3 class="text-start mx-5">Reasons to Approach:</h3>
+              <p class="text-start mx-5">
+                We were grateful for the opportunity to attend Prof. Mande’s talk at IISER, which led to a productive discussion with him, best of his kind in the field. His expertise in computational systems biology made him an invaluable resource for validating our project’s approach.
+              </p>
+              <h3 class="text-start mx-5">Suggestions:</h3>
+              <p class="text-start mx-5">
+                Prof. Mande reviewed our wet lab and dry lab strategies up to the current stage and validated our overall approach till then. He assisted with the exploration and selection of different linkers to optimize our fusion protein’s performance, towards the end suggesting GST linkers (Glycine-Serine-Threonine linkers), which would provide optimal functionality and flexibility for our constructs by preventing the formation of secondary structure form. His insights have been crucial for the fusion protein systems.         
+             </p>
+             <h3 class="text-start mx-5">Integrations: :</h3>
+             <p class="text-start mx-5">
+                 His advice was the cherry on top. We proceeded with the GST linker he recommended and incorporated it into our plasmid design. For further details, please refer to our linked plasmid page.
+             </p>
+             <br>
+             <h1 class="text-start mx-5">Dr. Sanu Shameer</h1>
+             <p class="text-start mx-5">
+              He is a researcher at the Indian Institute of Science Education and Research (IISER) Thiruvananthapuram, specializing in systems and computational biology. 
+             </p>
+             <h3 class="text-start mx-5">Reasons to Approach:</h3>
+             <p class="text-start mx-5">
+              We approached Dr. Shameer to assist with developing a flux balance analysis (FBA) model, which was essential for monitoring inputs and outputs and optimizing our pathways to predict the conversion efficiency of PET to sandalwood oil. His computational biology and systems modeling expertise made him a key resource for this task.
+             </p>
+             <h3 class="text-start mx-5">Suggestions:</h3>
+             <p class="text-start mx-5">
+              Dr. Shameer, along with his project student, our student advisor Pratham helped us address errors in our FBA model and provided foundational guidance on the basic concepts of flux balance analysis. He offered valuable insights that significantly improved the accuracy and functionality of our model, aiding us in making informed predictions about the conversion process and optimizing our metabolic pathways. His contributions were crucial for refining our computational approach and enhancing the overall performance of our model. 
+             </p>
+             <h3 class="text-start mx-5">Integrations: :</h3>
+             <p class="text-start mx-5">
+              After considering the above advice given and refining our model multiple times (detail), we got to te values of  amount of PET gives  amount of Sandalwood oil. How to co optimise and how to int for santalol and biomass
+            <br>Dr. Vinesh Vijayan 
+            <br>Indian Institute of Science Education and Research Thiruvanathapuram, India
+            <br>Fro the decteiton of santalene and santalol
+            <dd class="text-start mx-5"> - NMR what values does it </dd> 
+            <dd class="text-start mx-5"> - but needs 90% purity required, do Gcms </dd> 
+            <dd class="text-start mx-5"> - GCMS is a better option as its a lower amount </dd>
+            <dd class="text-start mx-5"> - Bohlman said can be done  </dd> 
+            <br>
+          </p>
+            <p class="text-start mx-5">Dr. Ravi Maruthachalam
+            <br>Indian Institute of Science Education and Research Thiruvanathapuram, India
+            <dd class="text-start mx-5"> - Helped us at initial stages for ideation</dd> 
+            <dd class="text-start mx-5"> - Biochem overall pathway feasibility </dd> 
+            <dd class="text-start mx-5"> - Gave us vaishak phd for help in cloning futher assistance</dd>
+            <dd class="text-start mx-5"> - Vaishak sassy in 631</dd>
+            <dd class="text-start mx-5"> - Assembly pcr</dd> 
+            <dd class="text-start mx-5"> - Same for p450 cpr</dd> 
+            </p>
+            </div>
+                </div>
+            </div>
+
+
+           
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col"> 
+      <!-- overview -->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+       <center><h1 class="heading mx-5 mt-3">Implementation </h1></center> 
+        <hr class="mx-5">
+        <p class="text-start mx-5">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <article class="bg-hero py-5 mb-4 container-lg">
+    <div class="row">
+        <section1 class="iq-features">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-3 col-md-12"></div>
+                  <div class="col-lg-6 col-md-12">
+                     <div class="holderCircle">
+                        <div class="round"></div>
+                        <div class="dotCircle">
+                           <span class="itemDot active itemDot1" data-tab="1">
+                           <i class="fa fa-clock-o"></i>
+                           <span class="forActive"></span>
+                           </span>
+                          
+                           <span class="itemDot itemDot2" data-tab="2">
+                           <i class="fa fa-comments"></i>
+                           <span class="forActive"></span>
+                           </span>
+                          
+                           <span class="itemDot itemDot3" data-tab="3">
+                           <i class="fa fa-user"></i>
+                           <span class="forActive"></span>
+                           </span>
+
+                           
+                           
+                        </div>
+                        <div class="contentCircle">
+                           <div class="CirItem title-box active CirItem1">
+                              <h2 class="title"><span>Automate</span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-clock-o"></i>
+                           </div>
+                          
+                           <div class="CirItem title-box CirItem2">
+                              <h2 class="title"><span>Chat </span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-comments"></i>
+                           </div>
+                          
+                           <div class="CirItem title-box CirItem3">
+                              <h2 class="title"><span>Responses</span></h2>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <i class="fa fa-user"></i>
+                           </div>
+                           
+                           <div class="CirItem title-box CirItem4">
+                            <h2 class="title"><span>Responses</span></h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <i class="fa fa-user"></i>
+                         </div>
+                          
+                          
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-12"></div>
+               </div>
+            </div>
+        </section>
+
+        </div>
+    </article>
+
+
+
+
+
+
+
+
+  <div class="row mt-4">
+    <div class="col"> 
+      <!-- overview -->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+       <center><h1 class="heading mx-5 mt-3">Closing the loop  </h1></center> 
+        <hr class="mx-5">
+        <p class="text-start mx-5">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+
+ 
+
+
+      </div>
+    </div>
+  </div>
+  <!-- add stysheet links -->
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'custumanimate.css') }}">
+
+</article>
+
+<footer class="pt-5 ppy-4 mt-5 bg-dark text-white placeholder-wave" style="margin-left: -12px;">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-5 col-xs-12">
+        <h4 class="mb-3 text-center"> <a href="https://2024.igem.wiki/iiser-tvm/" > <img src="images/noftbg.svg" class="mg-fluid img-fluid "  alt="petal" width="15%"> </a></h4>
+        <p class="lead text-center"><strong>Valorizing plastic to sandalwood Oil</strong></p>
+        <!-- <img src="{{ url_for('static', filename = 'images/logo.svg') }}" class="mg-fluid img-fluid" style="width : 25%; height: auto; margin-left: -2%;"  alt="iGEM logo"> -->
+        <!-- <img src="{{ url_for('static', filename = 'images/logo.svg') }}" class="mg-fluid img-fluid" style="width : 60%; height: auto; ; "  alt="iGEM logo"> -->
+        <div class="m-1 p-1"> <!-- social media icons -->
+          <div class="d-flex justify-content-between " style="margin-left: 29%;margin-right: 30%;">
+              <!-- insta will put img -->
+              <a href="https://www.instagram.com/igem_iisertvm/"><img src="{{ url_for('static', filename = 'images/instagram.svg') }}" alt="" class="img-fluid w-75" ></a>
+              <!-- linkedin will put img-->
+              <a href="https://www.linkedin.com/in/igem-iisertvm-aba783242/?originalSubdomain=in"><img src="{{ url_for('static', filename = 'images/linkedin.svg') }}" class="img-fluid w-75"  alt=""></a>
+              <!-- youtube will put img -->
+              <a href="https://www.youtube.com/c/iGEMIISERTVM"><img src="{{ url_for('static', filename = 'images/youtube.svg') }}" alt="" class="img-fluid" style="margin-left: 10%; width: 990px; height: auto  ;margin-bottom: 74%;" ></a>
+              <!-- X will put img -->
+              <a href="https://x.com/igem_iisertvm?t=dMFXqThxLnTuFGm15hDOXQ&s=08"><img src="{{ url_for('static', filename = 'images/twitter.svg') }}" alt="" class="img-fluid w-75" style=" margin-top: 0%;margin-left: 10px;"></a>
+            
+          </div>
+        </div>
+        <p class="text-center" style="margin-right: 3%;">igem@iisertvm.ac.in</p><!--email id-->
+      </div>
+      
+      <div class="col-lg-7 col-xs-12">
+          <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                  
+                  
+                 
+              <div class="testimonial-item rounded">
+                 
+                  <div class="testimonial-content">
+                     <img src="images/sponsorship/bigtec.svg" alt="">
+                  </div>
+              </div>
+           
+              <div class="testimonial-item rounded">
+                 
+                  <div class="testimonial-content">
+                      <img src="images/sponsorship/cellgenix.svg" alt="">
+                     
+                  </div>
+              </div>
+
+              <div class="testimonial-item rounded">
+                 
+                  <div class="testimonial-content">
+                      <img src="images/sponsorship/genious.svg" alt="">
+                     
+                  </div>
+              </div>
+             
+          </div>
+        
+      </div> 
+    </div>
+    <!-- The following MUST be on every page: license information and link to the repository on gitlab.igem.org -->
+    <div class="row mt-4">
+      <div class="col text-center fs-6">
+        <p class="mb-0"><small>© 2024 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+          <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2024/iiser-tvm">gitlab.igem.org/2024/iiser-tvm</a>.</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+      
+      <!-- JavaScript Libraries -->
+   
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+      
+      <script src="lib/wow/wow.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/waypoints/waypoints.min.js"></script>
+      <script src="lib/counterup/counterup.min.js"></script>
+      <script src="lib/lightbox/js/lightbox.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+      <!-- Template Javascript -->
+      <script src="js/main.js"></script>
+      <script>
+          $(document).ready(function() {
+    //toggle the component with class accordion_body
+    $(".accordion_head").click(function() {
+      $(this).removeClass('coll-back');
+      if ($('.accordion_body').is(':visible')) {
+        $(".accordion_body").slideUp(300);
+        $(".plusminus").text('+');
+        $(this).removeClass('coll-back');
+        $('.rmv-cls').removeClass('coll-back');
+      }
+
+      if($(this).next(".accordion_body").is(':visible')) {
+        $(this).next(".accordion_body").slideUp(300);
+        $(this).children(".plusminus").text('+');
+        $(this).removeClass('coll-back');
+      }else {
+        $(this).next(".accordion_body").slideDown(300);
+        $(this).children(".plusminus").text('');
+        $(this).children(".plusminus").append('<hr class="hr-clc">');
+        $(this).toggleClass('coll-back');
+        $(this).addClass('rmv-cls');
+      }
+    });
+  });
+
+
+      </script>
+      <script>
+    var responsiveSlider = function() {
+
+var slider = document.getElementById("slider");
+var sliderWidth = slider.offsetWidth;
+var slideList = document.getElementById("slideWrap");
+var count = 1;
+var items = slideList.querySelectorAll("li").length;
+var prev = document.getElementById("prev");
+var next = document.getElementById("next");
+
+window.addEventListener('resize', function() {
+  sliderWidth = slider.offsetWidth;
+});
+
+var prevSlide = function() {
+  if(count > 1) {
+    count = count - 2;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
+  }
+  else if(count = 1) {
+    count = items - 1;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
+  }
+};
+
+var nextSlide = function() {
+  if(count < items) {
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
+  }
+  else if(count = items) {
+    slideList.style.left = "0px";
+    count = 1;
+  }
+};
+
+next.addEventListener("click", function() {
+  nextSlide();
+});
+
+prev.addEventListener("click", function() {
+  prevSlide();
+});
+
+setInterval(function() {
+  nextSlide()
+}, 5000);
+
+};
+
+window.onload = function() {
+responsiveSlider();
+}
+
+
+  </script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('ul li a');
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    });
+  </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('ul li a');
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    });
+  </script>
+  <script>
+    var maxData = 3;
+	let i=2;
+
+	
+	$(document).ready(function(){
+		var radius = 200;
+		var fields = $('.itemDot');
+		var container = $('.dotCircle');
+		var width = container.width();
+ radius = width/2.5;
+ 
+		 var height = container.height();
+		var angle = 0, step = (2*Math.PI) / fields.length;
+		fields.each(function() {
+			var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
+			var y = Math.round(height/2 + radius * Math.sin(angle) - $(this).height()/2);
+			if(window.console) {
+				console.log($(this).text(), x, y);
+			}
+			
+			$(this).css({
+				left: x + 'px',
+				top: y + 'px'
+			});
+			angle += step;
+		});
+		
+		
+		$('.itemDot').click(function(){
+			
+			var dataTab= $(this).data("tab");
+			$('.itemDot').removeClass('active');
+			$(this).addClass('active');
+			$('.CirItem').removeClass('active');
+			$( '.CirItem'+ dataTab).addClass('active');
+			i=dataTab;
+			
+			$('.dotCircle').css({
+				"transform":"rotate("+(360-(i-1)*36)+"deg)",
+				"transition":"2s"
+			});
+			$('.itemDot').css({
+				"transform":"rotate("+((i-1)*36)+"deg)",
+				"transition":"1s"
+			});
+			
+			
+		});
+		
+    
+    
+		setInterval(function(){
+			var dataTab= $('.itemDot.active').data("tab");
+			if(dataTab>maxData||i>maxData){
+			dataTab=1;
+			i=1;
+			}
+			$('.itemDot').removeClass('active');
+			$('[data-tab="'+i+'"]').addClass('active');
+			$('.CirItem').removeClass('active');
+			$( '.CirItem'+i).addClass('active');
+			i++;
+			
+			
+			$('.dotCircle').css({
+				"transform":"rotate("+(360-(i-2)*36)+"deg)",
+				"transition":"2s"
+			});
+			$('.itemDot').css({
+				"transform":"rotate("+((i-2)*36)+"deg)",
+				"transition":"1s"
+			});
+			
+			}, 5000);
+		
+	});
+
+
+
+  </script>
+
+  </body>
+</html>
